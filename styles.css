@@ -61,3 +61,30 @@ header{
     color: #e5e7eb;
     margin: 10px 20px 10 0;
 }
+
+/* --INFORMATION-- */
+
+.information h2{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.illustration-container{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.img-container{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.img-container p{
+    max-width: 200px;
+    margin: 10px 0 0 0;
+    text-align: center;
+}
