@@ -88,3 +88,30 @@ header{
     margin: 10px 0 0 0;
     text-align: center;
 }
+
+/* --QUOTE SECTION-- */
+
+article{
+    background: #e5e7eb;
+    
+}
+
+.quote{
+    max-width: 850px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote p:first-of-type{
+    font-size: 36px;
+    color: #1f2973;
+    margin-bottom: 0;
+}
+
+.quote p:last-of-type{
+    align-self: flex-end;
+    margin: 0 50px 0 0;
+    font-weight: 900;
+    font-size: 20px;
+}
