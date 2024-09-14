@@ -105,7 +105,7 @@ article{
 
 .quote p:first-of-type{
     font-size: 36px;
-    color: #1f2973;
+    color: #1f2937;
     margin-bottom: 0;
 }
 
@@ -144,4 +144,13 @@ color: #f9faf8;
 font-weight: 600;
 padding: 6px 22px;
 border-radius: 8px;
+}
+
+/* --FOOTER-- */
+
+footer{
+   background: #1f2937; 
+   color: #e5e7eb;
+   text-align: center;
+   padding: 25px;
 }
