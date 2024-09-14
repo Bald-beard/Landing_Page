@@ -115,3 +115,14 @@ article{
     font-weight: 900;
     font-size: 20px;
 }
+
+/* --SIGN UP SECTION-- */
+
+
+.sign_up_section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
