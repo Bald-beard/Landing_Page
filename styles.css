@@ -1,8 +1,8 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: "Roboto", sans-serif;
     margin: 0;
     padding: 0;
@@ -11,12 +11,12 @@ body{
 
 /* --HEADER NAV-- */
 
-header{
+header {
     background: #1f2937;
     padding: 0 0 120px 0;
 }
 
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,17 +24,17 @@ header{
     margin: 0 auto;
 }
 
-.header h2{
+.header h2 {
     font-size: 24px;
     color: #f9faf8;
 }
 
-.nav-links{
+.nav-links {
     display: flex;
     list-style-type: none;
 }
 
-.nav-links li a{
+.nav-links li a {
     text-decoration: none;
     color: #e5e7eb;
     margin-left: 20px;
@@ -42,7 +42,7 @@ header{
 
 /* --HEADER-HERO-- */
 
-.hero-section{
+.hero-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,55 +51,55 @@ header{
     padding: 80px 0 0 0;
 }
 
-.hero-left h1{
+.hero-left h1 {
     font-size: 48px;
     color: #f9faf8;
     margin: 0;
     max-width: 500px;
 }
 
-.hero-left p{
+.hero-left p {
     font-size: 18px;
     color: #e5e7eb;
     margin: 10px 20px 10px 0;
     max-width: 450px;
 }
 
-.hero-left button{
-background: #3882f6;
-border: none;
-color: #f9faf8;
-font-weight: 600;
-padding: 6px 22px;
-border-radius: 8px;
+.hero-left button {
+    background: #3882f6;
+    border: none;
+    color: #f9faf8;
+    font-weight: 600;
+    padding: 6px 22px;
+    border-radius: 8px;
 }
 
 /* --INFORMATION-- */
 
-.information{
+.information {
     padding: 0 0 120px 0;
 }
 
-.information h2{
+.information h2 {
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
     text-align: center;
 }
 
-.illustration-container{
+.illustration-container {
     display: flex;
     gap: 50px;
     justify-content: center;
 }
 
-.img-container{
+.img-container {
     display: flex;
     flex-direction: column;
 
 }
 
-.img-container p{
+.img-container p {
     max-width: 200px;
     margin: 10px 0 0 0;
     text-align: center;
@@ -107,25 +107,25 @@ border-radius: 8px;
 
 /* --QUOTE SECTION-- */
 
-article{
+article {
     background: #e5e7eb;
     padding: 100px 0;
 }
 
-.quote{
+.quote {
     max-width: 850px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
 }
 
-.quote p:first-of-type{
+.quote p:first-of-type {
     font-size: 36px;
     color: #1f2937;
     margin-bottom: 0;
 }
 
-.quote p:last-of-type{
+.quote p:last-of-type {
     align-self: flex-end;
     margin: 0 50px 0 0;
     font-weight: 900;
@@ -134,39 +134,45 @@ article{
 
 /* --SIGN UP SECTION-- */
 
+.sign_up{
+    padding: 100px 0;
+}
 
-.sign_up_section{
+.sign_up_section {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     background: #3882f6;
-    
+    padding: 40px 0;
+    border-radius: 8px;
 }
 
-.sign_up_text h3{
+.sign_up_text h3 {
     color: #f9faf8;
+    margin: 0;
 }
 
-.sign_up_text p{
+.sign_up_text p {
     color: #e5e7eb;
+    margin: 0;
 }
 
-.sign_up_section button{
-background: #3882f6;
-border: 2px solid #fff;
-color: #f9faf8;
-font-weight: 600;
-padding: 6px 22px;
-border-radius: 8px;
+.sign_up_section button {
+    background: #3882f6;
+    border: 2px solid #fff;
+    color: #f9faf8;
+    font-weight: 600;
+    padding: 6px 22px;
+    border-radius: 8px;
 }
 
 /* --FOOTER-- */
 
-footer{
-   background: #1f2937; 
-   color: #e5e7eb;
-   text-align: center;
-   padding: 25px;
+footer {
+    background: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 25px;
 }
