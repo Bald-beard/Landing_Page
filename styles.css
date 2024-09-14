@@ -125,4 +125,23 @@ article{
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
+    background: #3882f6;
+    
+}
+
+.sign_up_text h3{
+    color: #f9faf8;
+}
+
+.sign_up_text p{
+    color: #e5e7eb;
+}
+
+.sign_up_section button{
+background: #3882f6;
+border: 2px solid #fff;
+color: #f9faf8;
+font-weight: 600;
+padding: 6px 22px;
+border-radius: 8px;
 }
