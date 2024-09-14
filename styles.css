@@ -76,6 +76,10 @@ border-radius: 8px;
 
 /* --INFORMATION-- */
 
+.information{
+    padding: 0 0 120px 0;
+}
+
 .information h2{
     font-size: 36px;
     color: #1f2937;
